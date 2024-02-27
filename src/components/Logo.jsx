@@ -1,8 +1,9 @@
 import React from 'react'
+import logoImage from '../assets/logo.png';
 
-function Logo({width = '100px'}) {
+function Logo({width = '40px'}) {
   return (
-    <div>Logo</div>
+    <img src={logoImage} alt="Logo" style={{ width, backgroundColor: 'transparent' }} />
   )
 }
 
